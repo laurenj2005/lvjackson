@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lauren Jackson Portfolio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Italiana&family=Josefin+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@1,800&display=swap">
+<link rel="stylesheet" href="styles.css">
+
+<link rel="icon" type="image/png" href="images/LJ-favicon.png">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="lily" viewBox="-195 -195 390 215">
+      <g fill="#fefefc" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        <path transform="rotate(-72)" d="M0 0C-32 -50 -36 -128 0 -172C36 -128 32 -50 0 0Z"/>
+        <path transform="rotate(72)" d="M0 0C-32 -50 -36 -128 0 -172C36 -128 32 -50 0 0Z"/>
+        <path transform="rotate(-36)" d="M0 0C-36 -56 -40 -142 0 -188C40 -142 36 -56 0 0Z"/>
+        <path transform="rotate(36)" d="M0 0C-36 -56 -40 -142 0 -188C40 -142 36 -56 0 0Z"/>
+        <path d="M0 0C-38 -58 -42 -146 0 -190C42 -146 38 -58 0 0Z"/>
+        <path fill="none" d="M0 -14L0 -120M-9 -22C-20 -62 -18 -104 -8 -140M9 -22C20 -62 18 -104 8 -140"/>
+        <path fill="none" d="M0 -4L-26 -96M0 -4L0 -112M0 -4L26 -96"/>
+      </g>
+      <g fill="currentColor">
+        <ellipse cx="-26" cy="-100" rx="7" ry="12" transform="rotate(-14 -26 -100)"/>
+        <ellipse cx="0" cy="-116" rx="7" ry="12"/>
+        <ellipse cx="26" cy="-100" rx="7" ry="12" transform="rotate(14 26 -100)"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="mark" href="#top">Lauren Jackson</a>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a class="link" href="#about">About</a></li>
+        <li><a class="link" href="#work">Work</a></li>
+        <li><a class="link" href="#resume">Resume</a></li>
+        <li><a class="link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-label="Introduction">
+    <svg class="lily lily-l" viewBox="-195 -195 390 215" aria-hidden="true"><use href="#lily"/></svg>
+    <svg class="lily lily-r" viewBox="-195 -195 390 215" aria-hidden="true"><use href="#lily"/></svg>
+    <div class="wrap">
+      <h1>Lauren Jackson</h1>
+      <p class="sub">Portfolio</p>
+      <p class="tags">UX | HCI | AI | Creative Technology</p>
+    </div>
+  <!--heading images-->
+    <div class="scene">
+      <img class="sky" src="images/skyscraper.png" alt="Illustration of a skyscraper with a pointed orange roof" width="420" height="628">
+      <img class="fig" src="images/photographer.png" alt="Illustration of a person in a cream puffer jacket taking a photo" width="360" height="539">
+      <img class="board" src="images/circuit-board.png" alt="Illustration of a computer circuit board with a heat sink" width="520" height="693">
+      <div class="ethos" aria-label="ethos"><span>e</span><span>t</span><span>h</span><span>o</span><span>s</span></div>
+    </div>
+  </section>
+
+<!--about section -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="text">
+        <h2>About me</h2>
+        <p>Hi! I am Lauren Jackson, a cognitive science student exploring UX, HCI, Artificial Intelligence, and educational technology. My work starts with curiosity about people, how we think, what we need, and how technology can meet them where we are.</p>
+        <p class="quote">&ldquo;Where thought meets human touch&rdquo;</p>
+      </div>
+      <div class="panel">
+        <svg class="lily a" viewBox="-195 -195 390 215" aria-hidden="true"><use href="#lily"/></svg>
+        <svg class="lily b" viewBox="-195 -195 390 215" aria-hidden="true"><use href="#lily"/></svg>
+        <div class="portrait" role="img" aria-label="Portrait of Lauren Jackson standing outdoors in a purple top"></div>
+      </div>
+    </div>
+  </section>
+
+<!-- work section -->
+  <section class="work" id="work">
+    <div class="wrap">
+      <header>
+        <h2>Work</h2>
+        <p>Three ways I work with ideas: building interfaces, photographing the world around me, and researching how people use technology.</p>
+      </header>
+
+<!--work buttons-->
+      <div class="tabs" role="tablist" aria-label="Work categories">
+        <button class="tab" role="tab" id="tab-dev" aria-controls="pane-dev" aria-selected="true" type="button">
+          <span class="name">Development</span>
+          <span class="desc">Front-end builds</span>
+        </button>
+        <button class="tab" role="tab" id="tab-ux" aria-controls="pane-ux" aria-selected="false" tabindex="-1" type="button">
+          <span class="name">UX Research and HCI </span>
+          <span class="desc">Studies and visual design</span>
+        </button>
+        <button class="tab" role="tab" id="tab-photo" aria-controls="pane-photo" aria-selected="false" tabindex="-1" type="button">
+          <span class="name">Photography</span>
+          <span class="desc">Frames and light</span>
+        </button>
+      </div>
+<!--developments-->
+      <div class="pane" role="tabpanel" id="pane-dev" aria-labelledby="tab-dev">
+        <h3>Front-end development</h3>
+        <p>Interfaces built with care for the people who use them.</p>
+        <div class="cards">
+<!--home styles -->
+          <article class="card">
+            <div class="slot">
+                <a href="NMIX 4010/webdev/final-project/project-one/index.html" 
+                target= "_blank"
+                rel="" noopener no referrer" 
+                aria-label="View the Home Styles website in a new tab"
+                >
+                <img src="images/HomestyleCover.png" alt="Preview of home styles website featuring interior designs">
+                </a>
+            </div>
+            <h4>Home Styles</h4>
+            <h5> HTML * CSS * JavaScript</h5>
+            <p>A three-page website about interior design and architectural styles, built for a University of Georgia web course. It grew out of an earlier project. I added interactive elements and reworked the design to make the site more engaging.The idea came from touring open houses with my mom during COVID, which turned into a love of home design.</p>
+          </article>
+<!--travel around the world-->
+          <article class="card">
+            <div class="slot">
+              <a href="NMIX 4010/webdev/project-two/index.html" 
+                target= "_blank"
+                rel="" noopener no referrer" 
+                aria-label="View of Travel around the World website in a new tab"
+                >
+                <img src="images/TravelsiteImage.png" alt="Preview of travel around the world website">
+                </a>
+
+            </div>
+            <h4>Travel Around the World</h4>
+            <h5> HTML * CSS * Bootstrap</h5>
+            <p>A multi-panel travel website built with Bootstrap, featuring travel-inspired
+              content, an interactive map, and customized webpage layouts. I explored
+              Bootstrap's responsive structure, integrated map content, and adapted
+              pre-built templates to create distinct designs. This project strengthened
+              my front-end development skills and taught me how to customize existing
+              components to fit my design vision.</p>
+          </article>
+
+        </div>
+      </div>
+<!--UX/ HCI -->
+      <div class="pane" role="tabpanel" id="pane-ux" aria-labelledby="tab-ux" hidden>
+        <a href="https://app.notion.com/p/UGA-Parking-Transportation-407fd4221f8d80bf9b98ed82b66903fd?source=copy_link" 
+                target= "_blank"
+                rel="" noopener no referrer" 
+                aria-label="UGA Parking and Transportation"
+                >
+                <img src="uga bus.webp" alt="Preview of a uga bus">
+                </a>
+        <h3>UGA Parking and Transportation</h3>
+        <p>Research and graphic work that starts with how people think and what they need.</p>
+      </div>
+    </div>
+
+<!--photography-->
+      <div class="pane" role="tabpanel" id="pane-photo"
+     aria-labelledby="tab-photo" hidden>
+
+  <h3>Behind the Lens</h3>
+  <p>
+    Photography is a personal creative outlet that allows me to explore
+    the world from different perspectives. I enjoy capturing details,
+    places, and moments that inspire me and shape how I see the world.
+  </p>
+
+  <div class="photo-grid">
+    <button class="photo-item" type="button"
+            data-full="photos/DSCF1012.JPG"
+            aria-label="Expand photograph 1">
+      <img src="photos/DSCF1012.JPG" alt="Photography by Lauren">
+    </button>
+
+    <button class="photo-item" type="button"
+            data-full="photos/DSCF0543.JPG"
+            aria-label="Expand photograph 2">
+      <img src="photos/DSCF0543.JPG" alt="Photography by Lauren">
+    </button>
+
+    <button class="photo-item" type="button"
+            data-full="photos/DSCF0999.JPG"
+            aria-label="Expand photograph 3">
+      <img src="photos/DSCF0999.JPG" alt="Photography by Lauren">
+    </button>
+
+    <button class="photo-item" type="button"
+            data-full="photos/DSCF1073.JPG"
+            aria-label="Expand photograph 4">
+      <img src="photos/DSCF1073.JPG" alt="Photography by Lauren">
+    </button>
+
+    <button class="photo-item" type="button"
+            data-full="photos/DSCF0553.JPG"
+            aria-label="Expand photograph 5">
+      <img src="photos/DSCF0553.JPG" alt="Photography by Lauren">
+    </button>
+
+    <button class="photo-item" type="button"
+            data-full="photos/DSCF0991.JPG"
+            aria-label="Expand photograph 6">
+      <img src="photos/DSCF0991.JPG" alt="Photography by Lauren">
+    </button>
+  </div>
+</div>
+
+<!-- Expanded image viewer -->
+<div class="photo-lightbox" id="photo-lightbox"
+     role="dialog" aria-modal="true"
+     aria-label="Expanded photograph" hidden>
+  <button class="lightbox-close" type="button"
+          aria-label="Close expanded photograph">&times;</button>
+  <img id="lightbox-image" src="" alt="">
+</div>
+
+  </section>
+
+  <!--resume-->
+<section class="resume" id="resume">
+  <div class="wrap">
+    <div class="resume-intro">
+      <p class="eyebrow">Experience &amp; Goals</p>
+      <h2>Resume</h2>
+      <p class="note">
+        My background brings together cognitive science, front-end development,
+        and artificial intelligence. I’m interested in designing accessible,
+        user-centered technology that connects people, learning, and innovation.
+      </p>
+
+      <!-- Add your resume PDF link when it is ready -->
+      <a class="resume-link" href="LJresumeCopy.pdf"
+         target="_blank" rel="noopener noreferrer">
+        View My Resume <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+
+    <ul class="focus">
+      <li>
+        <b>Education</b>
+        <span>
+          <strong>University of Georgia</strong><br>B.A. in Cognitive Science · Minor in Educational Psychology<br><strong>Certificates:</strong>New Media, Artificial Intelligence</span>
+      </li>
+      <li>
+        <b>Technical Interests</b>
+        <span>Artificial Intelligence, Human-Computer Interaction, UX/UI</span>
+      </li>
+      <li>
+        <b>Areas of Impact</b>
+        <span>Educational technology, accessible design, and human-centered innovation</span>
+      </li>
+      <li>
+        <b>Creative &amp; Technical Skills</b>
+        <span> 
+          <strong>Programming Languages:</strong>CSS, HTML, Java, JavaScript, Python, SQL
+          <br><strong>Operating Systems:</strong> macOS, Windows
+          <br><strong>Software:</strong> Adobe Illustrator, Adobe Photoshop, AutoCAD, GitHub, Google Workspace, Microsoft 365, VS Code, Figma
+          <br><strong>Certification:</strong> IBM Generative AI for Software Development (2025), Autodesk Fusion 360 Certified User (2024), Microsoft Technology Associate HTML5 Application Development Fundamentals (2022)
+      </span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!--contact-->
+  <section class="contact" id="contact">
+  <svg class="lily a" viewBox="-195 -195 390 215" aria-hidden="true"><use href="#lily"></use></svg>
+  <div class="wrap">
+    <div class="left">
+      <h2>Let&rsquo;s get in touch</h2>
+    </div>
+
+
+<!--
+<div class="contact-form"> 
+  <form
+    action="https://formspree.io/f/mbggoveg"
+    method="POST"
+    id = "contact-form"
+  >
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+       placeholder=" Your name"
+        autocomplete="name"
+        required
+      >
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your email</label>
+      <input  type="email"
+       id="email"
+       name="email"
+        placeholder="your@email.com"
+        autocomplete="email"
+        required
+        >
+    </div>
+
+    <div class="form-group">
+     <label for="subject">Subject</label>
+      <input
+        type="text"
+        id="subject"
+        name="subject"
+        placeholder="What is this about?"
+        required
+      >
+    </div>
+
+    <div class="form-group"></div>
+      <label>Your message </label>
+       <textarea
+       id="message"
+       name="message"
+       placeholder="Write your message here..."
+       required
+      ></textarea>
+    </div>
+  
+    <button type="submit" class="submit-button">Send</button>
+  </form>
+</div>
+-->
+<div class="rows">
+  <!-- Email -->
+  <a class="row contact-link" href="mailto:laurenjackson958@gmail.com">
+    <svg viewBox="0 0 32 32" fill="none" stroke="currentColor"
+      stroke-width="2.2" stroke-linejoin="round" aria-hidden="true">
+      <rect x="3" y="6" width="26" height="20" rx="2"/>
+      <path d="M4 8l12 10L28 8M4 25l9-9M28 25l-9-9"/>
+    </svg>
+  </a>
+
+<!-- Instagram -->
+  <a class="row contact-link" href="https://www.instagram.com/la.uren.v"
+        target="_blank"
+        rel="noopener noreferrer">
+    <svg viewBox="0 0 32 32" fill="none" stroke="currentColor"
+      stroke-width="2.4" aria-hidden="true">
+      <rect x="3.5" y="3.5" width="25" height="25" rx="7"/>
+      <circle cx="16" cy="16" r="6"/>
+      <circle cx="23.5" cy="8.5" r="1.4"
+        fill="currentColor" stroke="none"/>
+    </svg>
+  </a>
+
+
+<!-- LinkedIn -->
+  <a class="row contact-link" href="https://www.linkedin.com/in/lauren-v-jackson-4411172b3"
+        target="_blank"
+        rel="noopener noreferrer">
+    <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+      <path d="M4 3h24a1 1 0 0 1 1 1v24a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm4.2 10v11h3.6V13H8.2zm1.8-5.4a2.1 2.1 0 1 0 0 4.2 2.1 2.1 0 0 0 0-4.2zM14 13v11h3.5v-5.8c0-1.6.7-2.7 2.1-2.7 1.3 0 1.9.9 1.9 2.7V24H25v-6.6c0-3.1-1.6-4.6-3.9-4.6-1.7 0-2.7.9-3.2 1.7V13H14z"/>
+    </svg>
+  </a>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Lauren Jackson</span>
+    <div class="ethos" aria-label="ethos"><span>e</span><span>t</span><span>h</span><span>o</span><span>s</span></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
