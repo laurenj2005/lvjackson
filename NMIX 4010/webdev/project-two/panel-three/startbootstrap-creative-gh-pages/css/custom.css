@@ -1,0 +1,248 @@
+
+.root {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.bbh-sans-hegarty-regular {
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bbh-sans-hegarty-bold {
+  font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #bee0e8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "BBH Sans Hegarty", sans-serif;
+}   
+a {
+    color: #2c3e50;
+}
+
+a:hover, a:focus {
+    color: #18bc9c;
+}  
+
+p{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+.btn-primary {
+    background-color: #18bc9c;
+    border-color: #18bc9c;
+    size: 0caps;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #128f76;
+    border-color: #128f76;
+}
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #0f7864;
+    border-color: #0f7864;
+}
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn {
+    background-color: #0d6653;
+    border-color: #0d6653;          
+}
+.btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus {
+    border-color: #0d6653;
+}
+
+.btn-primary.active {
+    background-color: #18bc9c;      
+    border-color: #18bc9c;
+}
+
+
+
+/* Back to Top Button */
+.btn-primary.mb-5 {
+  background-color:#18bc9c;
+  border: none;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  border-radius: 5%;
+}
+.btn-primary.mb-5:hover {
+  background-color: #0d6653;
+} 
+.btn-primary.mb-5:focus {
+  background-color: #0d6653;
+}
+.btn-primary.mb-5:active {
+  background-color: #0d6653;
+}         
+
+/* Nav Bar */
+.nav-link{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 1rem !important;
+    color: #2c3e50 !important;
+}
+.nav-item:hover .nav-link{
+    color: #18bc9c !important;
+}
+.nav-item:focus .nav-link{
+    color: #18bc9c !important;
+}
+.nav-item:active .nav-link{
+    color: #128f76 !important;
+}   
+
+.navbar-brand{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #2c3e50 !important;
+}
+.navbar-brand:hover{
+    color: #18bc9c !important;
+}
+
+/* Section Headings */
+.divider{
+    border-bottom: 1px solid #2c3e50;
+    width: 60px;
+    margin: 1.5rem 0;
+    background-color: #6ca6df;
+}
+
+/* Header Section */
+header{
+    background-image: url('../assets/img/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header .divider{
+    border-color: #fff;
+}
+header h1{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #fff;
+}
+header h1:hover{
+    color: #18bc9c;
+}
+header h1:focus{
+    color: #18bc9c;
+}
+header h1:active{
+    color: #128f76;
+}
+
+/* image icon for destneation*/ 
+.icon{
+width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Section Icons */
+.section-icon{
+    font-size: 3rem;
+    color: #18bc9c;
+    margin-bottom: 1rem;
+}
+.section-icon:hover{
+    color: #128f76;
+}
+.section-icon:focus{
+    color: #128f76;
+}
+.section-icon:active{
+    color: #0f7864;
+}
+.text-primary{
+    color: #2c3e50;
+}
+
+.text-primary:hover{
+    color: #18bc9c;
+}
+.text-primary:focus{
+    color: #18bc9c;
+}
+.text-primary:active{
+    color: #128f76;
+}
+
+/* Section Body Text */
+section p{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+section{
+    padding: 6rem 0;    
+    box-shadow: #5a676d6b 0px 0px 10px;
+}
+
+
+/*image gallery*/
+.portfolio-box{
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #2c3e50;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: auto;
+}
+.portfolio-box:hover{
+    border: 5px solid #18bc9c;
+    box-shadow: 0 0 15px rgba(51, 139, 255, 0.608);
+}
+.portfolio-box:focus{
+    border: 5px solid #18bc9c;
+    box-shadow: 0 0 15px rgba(51, 139, 255, 0.608);
+}
+.portfolio-box:active{
+    border: 5px solid #128f76;
+    box-shadow: 0 0 15px rgba(51, 139, 255, 0.608);
+}   
+
+.col-lg-6.col-md-6.mb-4
+{
+    font-family: "BBH Sans Hegarty", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #2c3e50;
+}
