@@ -1,0 +1,241 @@
+:root{
+  --bs-body-bg: #0077b6;
+  --bs-body-color: #ffffff;
+  --bs-primary: #284b56;
+  --bs-secondary: #023e8a;
+  --bs-success: #00b4d8;
+  --bs-info: #48cae4;
+  --bs-warning: #ffd166;
+  --bs-danger: #ef476f;
+  --bs-light: #f1faee;
+  --bs-dark: #06243e;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: #859b9f;
+  background-color: #b2dae4;
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+} 
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+/* Navbar link styles */
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #ffd166 !important;
+}
+.nav-item.active .nav-link {
+  color: #ffd166 !important;
+  font-weight: 700;
+} 
+
+.navbar.navbar-expand-lg.navbar-dark.bg-primary {
+  background-color: #082d4d !important;
+}
+.bg-primary {
+  background-color: #2e517f !important;
+}
+
+/* Card styles */
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(5, 55, 75);
+  transition: transform 0.2s;
+  background-color: #103c63;
+}
+.card-title {
+  font-weight: 600;
+} 
+
+.card-img-top {
+  height: 200px; 
+  width: 100%;
+  object-fit: cover; 
+  border-radius: 8px 8px 0 0;
+
+}
+
+/* Container styles */
+.container my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  border-radius: 5%;
+  box-shadow: 0 4px 12px rgba(54, 59, 81, 0.1);
+
+} 
+
+.container{
+  background-color: #06243e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(6, 17, 63, 0.919);
+}
+
+/* Fixed position button */
+.btn-primary {
+  background-color: #2a4e72;
+  border: none;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+  background-color: #023e8a;
+}
+
+.btn-primary.mb-5 {
+  background-color: #03172c;
+  border: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1030;
+}
+.btn-primary.mb-5:hover {
+  background-color: #112d4a;
+} 
+
+/* Outline button style */
+.btn-outline-primary {
+  color: #06243e;
+  border-color: #06243e;
+}
+.btn-outline-primary:hover {
+  background-color: #06243e;;
+  color: #fff;
+  border-color: #06243e;;
+}
+
+/* Margin and center text */
+.mb-3.text-center {
+  background-color: #082d4d;
+  padding: 20px 30px;
+} 
+
+/* Map section styles */
+.map-section {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the heading */
+.map-heading {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+/* Make the iframe fill remaining space */
+.mb-3 p.text-center {
+  margin-bottom: 1rem !important;
+  border: #03172c;
+  margin: 0;
+  color: #06243e;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.map-section iframe {
+  flex: 1;
+  width: 100%;
+  height: 500px;
+  border: none;
+}
+
+/* Gallery images all same fixed height with cropping */
+#explore img {
+  width: 100%;        
+  height: 250px;     
+  object-fit: cover; 
+  border-radius: 8px; 
+  display: block;    
+}
+#explore .col-6, #explore .col-md-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Carousel styles */
+.carousel-item img {
+  max-height: 640px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain; 
+  margin: 0 auto;       
+  display: block;
+  border-radius: 5%;      
+  box-shadow: 0 4px 12px rgba(6, 30, 65, 0.852); 
+} 
+img{
+  border-radius: 10%;
+}
+.d-block.w-100 {
+  border-radius: 10%;
+}
+
+.carousel-item { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9%;
+  height: 640px;
+  width: 100%;
+  background-color: #06243e;
+}
+
+.carousel-caption {
+  background: rgba(30, 65, 89, 0.737);
+  padding: 10px;
+  border-radius: 5px;
+}
+.carousel-caption h5, .carousel-caption p {
+  color: #fff; 
+  margin: 0;
+}
+
+/* Footer styles */
+footer {
+  background-color: #bcc3c9;
+  padding: 20px 0;
+}
+footer p {
+  margin: 0;
+  color: #649dad;
+  font-size: 0.9rem;
+  text-align: center;
+}
