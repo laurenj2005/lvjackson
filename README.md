@@ -10,5 +10,5 @@ Technologies
 - HTML
 - CSS
 - JavaScript
-Live Website
+
 Visit my portfolio
