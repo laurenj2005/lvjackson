@@ -11,4 +11,4 @@ Technologies
 - CSS
 - JavaScript
 
-Visit my portfolio
+<a href="https://laurenj2005.github.io/lvjackson/" target="_blank">Visit my portfolio</a>
